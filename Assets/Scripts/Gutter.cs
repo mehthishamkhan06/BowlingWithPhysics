@@ -20,4 +20,4 @@ public class Gutter : MonoBehaviour
         //We use the cached velocity magnitude to keep it a little realistic
         ballRigidBody.AddForce(transform.forward * velocityMagnitude, ForceMode.VelocityChange);
     }
- }
+ }  
